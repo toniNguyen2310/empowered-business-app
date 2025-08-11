@@ -3,7 +3,7 @@
 client_id = "aeb3aa193fadcd3423590033c3ecce1c"
 name = "empowered-business-app"
 handle = "empowered-business-app-19"
-application_url = "https://empowered-business-app.vercel.app/"
+application_url = "http://empowered-business-app.vercel.app"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://comply-cgi-employees-pos.trycloudflare.com/auth/callback", "https://comply-cgi-employees-pos.trycloudflare.com/auth/shopify/callback", "https://comply-cgi-employees-pos.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["http://empowered-business-app.vercel.app/auth/callback", "http://empowered-business-app.vercel.app/auth/shopify/callback", "http://empowered-business-app.vercel.app/api/auth/callback"]
 
 [pos]
 embedded = false
