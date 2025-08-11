@@ -3,7 +3,7 @@
 client_id = "aeb3aa193fadcd3423590033c3ecce1c"
 name = "empowered-business-app"
 handle = "empowered-business-app-19"
-application_url = "https://comply-cgi-employees-pos.trycloudflare.com"
+application_url = "https://empowered-business-app.vercel.app/"
 embedded = true
 
 [build]
