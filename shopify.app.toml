@@ -3,7 +3,7 @@
 client_id = "aeb3aa193fadcd3423590033c3ecce1c"
 name = "empowered-business-app"
 handle = "empowered-business-app-19"
-application_url = "http://empowered-business-app.vercel.app"
+application_url = "https://empowered-business-app.vercel.app"
 embedded = true
 
 [build]
@@ -23,10 +23,10 @@ api_version = "2025-07"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_products,write_products"
 
 [auth]
-redirect_urls = ["http://empowered-business-app.vercel.app/auth/callback", "http://empowered-business-app.vercel.app/auth/shopify/callback", "http://empowered-business-app.vercel.app/api/auth/callback"]
+redirect_urls = ["https://empowered-business-app.vercel.app/auth/callback", "https://empowered-business-app.vercel.app/auth/shopify/callback", "https://empowered-business-app.vercel.app/api/auth/callback"]
 
 [pos]
 embedded = false
